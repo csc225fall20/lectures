@@ -3,16 +3,16 @@
 ; The main program:
 
         ; Place the arguments into R0 and R1.
-        ; Save R3 and R7, if meaningful.
+        ; Save R2 and R7, if meaningful.
         JSR SUB         ; Call SUB.
         ; The return value can be found in R2.
-        ; Restore R3 and R7, if meaningful.
+        ; Restore R2 and R7, if meaningful.
 
         ; Place the arguments into R0 and R1.
-        ; Save R3 and R7, if meaningful.
+        ; Save R2 and R7, if meaningful.
         JSR SUB         ; Call SUB again.
         ; The return value can be found in R2.
-        ; Restore R3 and R7, if meaningful.
+        ; Restore R2 and R7, if meaningful.
 
         HALT
 
